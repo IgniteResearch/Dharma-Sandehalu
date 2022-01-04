@@ -38,7 +38,7 @@
     git commit -m $timestamp
 
     # Added surgen dentist git repo 's remote url
-    git remote add origin https://github.com/surgendentist/surgendentist.github.io.git
+    git remote add origin https://github.com/dharma-sandehalu/dharma-sandehalu.github.io.git
 
     # created a branch "gh-pages"
     git branch -M gh-pages
@@ -51,7 +51,7 @@
 
 
     ## code deployed to new url 
-    echo -e '\n$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ \n                                                                                    \n                        https://surgendentist.github.io/                         \n                                                                                       \n$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ \n\n'
+    echo -e '\n$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ \n                                                                                    \n                        https://dharma-sandehalu.github.io/                         \n                                                                                       \n$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ \n\n'
 
     # Get User input 
     echo -e '\n\n'
