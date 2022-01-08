@@ -123,6 +123,14 @@ export default {
       ],
       "copyright": "Copyright © 2022 Ignite Research"
     },
+    "algolia": {
+      "appId": "K9Z7KSOS9S",
+      "apiKey": "6c373b2d3b98d5455c07ce77409449c3",
+      "indexName": "Dharma-Sandehalu",
+      "contextualSearch": true,
+      "externalUrlRegex": "external\\.com|domain\\.com",
+      "searchParameters": {}
+    },
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,

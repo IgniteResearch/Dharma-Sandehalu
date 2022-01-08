@@ -61,7 +61,7 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: 'blog', label: 'Blog', position: 'left'},
+          { to: 'blog', label: 'Blog', position: 'left' },
           // Please keep GitHub link to the right for consistency.
           {
             href: 'https://github.com/facebook/docusaurus',
@@ -140,6 +140,26 @@ const config = {
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Ignite Research`,
+      },
+      algolia: {
+        // If Algolia did not provide you any appId, use 'BH4D9OD16A'
+        appId: 'K9Z7KSOS9S',
+
+        // Public API key: it is safe to commit it
+        apiKey: '6c373b2d3b98d5455c07ce77409449c3',
+
+        indexName: 'Dharma-Sandehalu',
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        externalUrlRegex: 'external\\.com|domain\\.com',
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+
+        //... other Algolia params
       },
     }),
 };
