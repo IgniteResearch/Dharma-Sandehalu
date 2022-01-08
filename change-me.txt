@@ -8,3 +8,6 @@ Addded repo name and project url in config.js
 
 16:21 08-01-2022
 modifed home , added title & logo 
+
+17:11 08-01-2022
+home page MVP is ready 
