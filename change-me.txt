@@ -5,3 +5,6 @@ initalized repo and created the depoy-dev-server.sh file
 
 07:19 04-01-2022
 Addded repo name and project url in config.js 
+
+16:21 08-01-2022
+modifed home , added title & logo 
