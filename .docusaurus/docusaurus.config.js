@@ -2,7 +2,7 @@ export default {
   "title": "Dharma Sandehalu",
   "tagline": "Search Engine / one place For All Hindu Rituals",
   "url": "https://Dharmasandehalu.co.in",
-  "baseUrl": "/tel/",
+  "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/DharmaSandehalu.png",

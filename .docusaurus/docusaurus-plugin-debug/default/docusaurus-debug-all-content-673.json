@@ -5,10 +5,10 @@
         {
           "versionName": "current",
           "versionLabel": "Next",
-          "versionPath": "/tel/docs",
-          "tagsPath": "/tel/docs/tags",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
           "versionEditUrl": "https://github.com/IgniteResearch/Dharma-Sandehalu/tree/main/packages/create-docusaurus/templates/shared/docs",
-          "versionEditUrlLocalized": "https://github.com/IgniteResearch/Dharma-Sandehalu/tree/main/packages/create-docusaurus/templates/shared/i18n/tel/docusaurus-plugin-content-docs/current",
+          "versionEditUrlLocalized": "https://github.com/IgniteResearch/Dharma-Sandehalu/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "versionBanner": null,
           "versionBadge": false,
           "versionClassName": "docs-version-current",
@@ -16,7 +16,7 @@
           "routePriority": -1,
           "sidebarFilePath": "C:\\Users\\saikoushikg\\Github\\IgniteResearch\\Dharma-Sandehalu\\sidebars.js",
           "contentPath": "C:\\Users\\saikoushikg\\Github\\IgniteResearch\\Dharma-Sandehalu\\docs",
-          "contentPathLocalized": "C:\\Users\\saikoushikg\\Github\\IgniteResearch\\Dharma-Sandehalu\\i18n\\tel\\docusaurus-plugin-content-docs\\current",
+          "contentPathLocalized": "C:\\Users\\saikoushikg\\Github\\IgniteResearch\\Dharma-Sandehalu\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
               "unversionedId": "intro",
@@ -26,7 +26,7 @@
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/tel/docs/intro",
+              "permalink": "/docs/intro",
               "editUrl": "https://github.com/IgniteResearch/Dharma-Sandehalu/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
               "tags": [],
               "version": "current",
@@ -37,7 +37,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Create a Page",
-                "permalink": "/tel/docs/tutorial-basics/create-a-page"
+                "permalink": "/docs/tutorial-basics/create-a-page"
               }
             },
             {
@@ -48,7 +48,7 @@
               "source": "@site/docs/tutorial-basics/congratulations.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/congratulations",
-              "permalink": "/tel/docs/tutorial-basics/congratulations",
+              "permalink": "/docs/tutorial-basics/congratulations",
               "editUrl": "https://github.com/IgniteResearch/Dharma-Sandehalu/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/congratulations.md",
               "tags": [],
               "version": "current",
@@ -59,11 +59,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Deploy your site",
-                "permalink": "/tel/docs/tutorial-basics/deploy-your-site"
+                "permalink": "/docs/tutorial-basics/deploy-your-site"
               },
               "next": {
                 "title": "Manage Docs Versions",
-                "permalink": "/tel/docs/tutorial-extras/manage-docs-versions"
+                "permalink": "/docs/tutorial-extras/manage-docs-versions"
               }
             },
             {
@@ -74,7 +74,7 @@
               "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-blog-post",
-              "permalink": "/tel/docs/tutorial-basics/create-a-blog-post",
+              "permalink": "/docs/tutorial-basics/create-a-blog-post",
               "editUrl": "https://github.com/IgniteResearch/Dharma-Sandehalu/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-blog-post.md",
               "tags": [],
               "version": "current",
@@ -85,11 +85,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Create a Document",
-                "permalink": "/tel/docs/tutorial-basics/create-a-document"
+                "permalink": "/docs/tutorial-basics/create-a-document"
               },
               "next": {
                 "title": "Markdown Features",
-                "permalink": "/tel/docs/tutorial-basics/markdown-features"
+                "permalink": "/docs/tutorial-basics/markdown-features"
               }
             },
             {
@@ -100,7 +100,7 @@
               "source": "@site/docs/tutorial-basics/create-a-document.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-document",
-              "permalink": "/tel/docs/tutorial-basics/create-a-document",
+              "permalink": "/docs/tutorial-basics/create-a-document",
               "editUrl": "https://github.com/IgniteResearch/Dharma-Sandehalu/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-document.md",
               "tags": [],
               "version": "current",
@@ -111,11 +111,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Create a Page",
-                "permalink": "/tel/docs/tutorial-basics/create-a-page"
+                "permalink": "/docs/tutorial-basics/create-a-page"
               },
               "next": {
                 "title": "Create a Blog Post",
-                "permalink": "/tel/docs/tutorial-basics/create-a-blog-post"
+                "permalink": "/docs/tutorial-basics/create-a-blog-post"
               }
             },
             {
@@ -126,7 +126,7 @@
               "source": "@site/docs/tutorial-basics/create-a-page.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-page",
-              "permalink": "/tel/docs/tutorial-basics/create-a-page",
+              "permalink": "/docs/tutorial-basics/create-a-page",
               "editUrl": "https://github.com/IgniteResearch/Dharma-Sandehalu/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-page.md",
               "tags": [],
               "version": "current",
@@ -137,11 +137,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Tutorial Intro",
-                "permalink": "/tel/docs/intro"
+                "permalink": "/docs/intro"
               },
               "next": {
                 "title": "Create a Document",
-                "permalink": "/tel/docs/tutorial-basics/create-a-document"
+                "permalink": "/docs/tutorial-basics/create-a-document"
               }
             },
             {
@@ -152,7 +152,7 @@
               "source": "@site/docs/tutorial-basics/deploy-your-site.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/deploy-your-site",
-              "permalink": "/tel/docs/tutorial-basics/deploy-your-site",
+              "permalink": "/docs/tutorial-basics/deploy-your-site",
               "editUrl": "https://github.com/IgniteResearch/Dharma-Sandehalu/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/deploy-your-site.md",
               "tags": [],
               "version": "current",
@@ -163,11 +163,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Markdown Features",
-                "permalink": "/tel/docs/tutorial-basics/markdown-features"
+                "permalink": "/docs/tutorial-basics/markdown-features"
               },
               "next": {
                 "title": "Congratulations!",
-                "permalink": "/tel/docs/tutorial-basics/congratulations"
+                "permalink": "/docs/tutorial-basics/congratulations"
               }
             },
             {
@@ -178,7 +178,7 @@
               "source": "@site/docs/tutorial-basics/markdown-features.mdx",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/markdown-features",
-              "permalink": "/tel/docs/tutorial-basics/markdown-features",
+              "permalink": "/docs/tutorial-basics/markdown-features",
               "editUrl": "https://github.com/IgniteResearch/Dharma-Sandehalu/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/markdown-features.mdx",
               "tags": [],
               "version": "current",
@@ -189,11 +189,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Create a Blog Post",
-                "permalink": "/tel/docs/tutorial-basics/create-a-blog-post"
+                "permalink": "/docs/tutorial-basics/create-a-blog-post"
               },
               "next": {
                 "title": "Deploy your site",
-                "permalink": "/tel/docs/tutorial-basics/deploy-your-site"
+                "permalink": "/docs/tutorial-basics/deploy-your-site"
               }
             },
             {
@@ -204,7 +204,7 @@
               "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/manage-docs-versions",
-              "permalink": "/tel/docs/tutorial-extras/manage-docs-versions",
+              "permalink": "/docs/tutorial-extras/manage-docs-versions",
               "editUrl": "https://github.com/IgniteResearch/Dharma-Sandehalu/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/manage-docs-versions.md",
               "tags": [],
               "version": "current",
@@ -215,11 +215,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Congratulations!",
-                "permalink": "/tel/docs/tutorial-basics/congratulations"
+                "permalink": "/docs/tutorial-basics/congratulations"
               },
               "next": {
                 "title": "Translate your site",
-                "permalink": "/tel/docs/tutorial-extras/translate-your-site"
+                "permalink": "/docs/tutorial-extras/translate-your-site"
               }
             },
             {
@@ -230,7 +230,7 @@
               "source": "@site/docs/tutorial-extras/translate-your-site.md",
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/translate-your-site",
-              "permalink": "/tel/docs/tutorial-extras/translate-your-site",
+              "permalink": "/docs/tutorial-extras/translate-your-site",
               "editUrl": "https://github.com/IgniteResearch/Dharma-Sandehalu/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/translate-your-site.md",
               "tags": [],
               "version": "current",
@@ -241,7 +241,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Manage Docs Versions",
-                "permalink": "/tel/docs/tutorial-extras/manage-docs-versions"
+                "permalink": "/docs/tutorial-extras/manage-docs-versions"
               }
             }
           ],
@@ -314,25 +314,25 @@
         {
           "id": "welcome",
           "metadata": {
-            "permalink": "/tel/blog/welcome",
+            "permalink": "/blog/welcome",
             "editUrl": "https://github.com/IgniteResearch/Dharma-Sandehalu/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
             "source": "@site/blog/2021-08-26-welcome/index.md",
             "title": "Welcome",
             "description": "Docusaurus blogging features are powered by the blog plugin.",
             "date": "2021-08-26T00:00:00.000Z",
-            "formattedDate": "26 ఆగస్టు, 2021",
+            "formattedDate": "August 26, 2021",
             "tags": [
               {
                 "label": "facebook",
-                "permalink": "/tel/blog/tags/facebook"
+                "permalink": "/blog/tags/facebook"
               },
               {
                 "label": "hello",
-                "permalink": "/tel/blog/tags/hello"
+                "permalink": "/blog/tags/hello"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/tel/blog/tags/docusaurus"
+                "permalink": "/blog/tags/docusaurus"
               }
             ],
             "readingTime": 0.405,
@@ -355,7 +355,7 @@
             ],
             "nextItem": {
               "title": "MDX Blog Post",
-              "permalink": "/tel/blog/mdx-blog-post"
+              "permalink": "/blog/mdx-blog-post"
             }
           },
           "content": "[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).\n\nSimply add Markdown files (or folders) to the `blog` directory.\n\nRegular blog authors can be added to `authors.yml`.\n\nThe blog post date can be extracted from filenames, such as:\n\n- `2019-05-30-welcome.md`\n- `2019-05-30-welcome/index.md`\n\nA blog post folder can be convenient to co-locate blog post images:\n\n![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)\n\nThe blog supports tags as well!\n\n**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config."
@@ -363,17 +363,17 @@
         {
           "id": "mdx-blog-post",
           "metadata": {
-            "permalink": "/tel/blog/mdx-blog-post",
+            "permalink": "/blog/mdx-blog-post",
             "editUrl": "https://github.com/IgniteResearch/Dharma-Sandehalu/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
             "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
             "title": "MDX Blog Post",
             "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
             "date": "2021-08-01T00:00:00.000Z",
-            "formattedDate": "1 ఆగస్టు, 2021",
+            "formattedDate": "August 1, 2021",
             "tags": [
               {
                 "label": "docusaurus",
-                "permalink": "/tel/blog/tags/docusaurus"
+                "permalink": "/blog/tags/docusaurus"
               }
             ],
             "readingTime": 0.175,
@@ -389,11 +389,11 @@
             ],
             "prevItem": {
               "title": "Welcome",
-              "permalink": "/tel/blog/welcome"
+              "permalink": "/blog/welcome"
             },
             "nextItem": {
               "title": "Long Blog Post",
-              "permalink": "/tel/blog/long-blog-post"
+              "permalink": "/blog/long-blog-post"
             }
           },
           "content": "Blog posts support [Docusaurus Markdown features](https://docusaurus.io/docs/markdown-features), such as [MDX](https://mdxjs.com/).\n\n:::tip\n\nUse the power of React to create interactive blog posts.\n\n```js\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n```\n\n<button onClick={() => alert('button clicked!')}>Click me!</button>\n\n:::"
@@ -401,21 +401,21 @@
         {
           "id": "long-blog-post",
           "metadata": {
-            "permalink": "/tel/blog/long-blog-post",
+            "permalink": "/blog/long-blog-post",
             "editUrl": "https://github.com/IgniteResearch/Dharma-Sandehalu/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
             "source": "@site/blog/2019-05-29-long-blog-post.md",
             "title": "Long Blog Post",
             "description": "This is the summary of a very long blog post,",
             "date": "2019-05-29T00:00:00.000Z",
-            "formattedDate": "29 మే, 2019",
+            "formattedDate": "May 29, 2019",
             "tags": [
               {
                 "label": "hello",
-                "permalink": "/tel/blog/tags/hello"
+                "permalink": "/blog/tags/hello"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/tel/blog/tags/docusaurus"
+                "permalink": "/blog/tags/docusaurus"
               }
             ],
             "readingTime": 2.05,
@@ -431,11 +431,11 @@
             ],
             "prevItem": {
               "title": "MDX Blog Post",
-              "permalink": "/tel/blog/mdx-blog-post"
+              "permalink": "/blog/mdx-blog-post"
             },
             "nextItem": {
               "title": "First Blog Post",
-              "permalink": "/tel/blog/first-blog-post"
+              "permalink": "/blog/first-blog-post"
             }
           },
           "content": "This is the summary of a very long blog post,\n\nUse a `<!--` `truncate` `-->` comment to limit blog post size in the list view.\n\n<!--truncate-->\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
@@ -443,21 +443,21 @@
         {
           "id": "first-blog-post",
           "metadata": {
-            "permalink": "/tel/blog/first-blog-post",
+            "permalink": "/blog/first-blog-post",
             "editUrl": "https://github.com/IgniteResearch/Dharma-Sandehalu/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
             "source": "@site/blog/2019-05-28-first-blog-post.md",
             "title": "First Blog Post",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
             "date": "2019-05-28T00:00:00.000Z",
-            "formattedDate": "28 మే, 2019",
+            "formattedDate": "May 28, 2019",
             "tags": [
               {
                 "label": "hola",
-                "permalink": "/tel/blog/tags/hola"
+                "permalink": "/blog/tags/hola"
               },
               {
                 "label": "docusaurus",
-                "permalink": "/tel/blog/tags/docusaurus"
+                "permalink": "/blog/tags/docusaurus"
               }
             ],
             "readingTime": 0.12,
@@ -473,7 +473,7 @@
             ],
             "prevItem": {
               "title": "Long Blog Post",
-              "permalink": "/tel/blog/long-blog-post"
+              "permalink": "/blog/long-blog-post"
             }
           },
           "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
@@ -482,7 +482,7 @@
       "blogListPaginated": [
         {
           "metadata": {
-            "permalink": "/tel/blog",
+            "permalink": "/blog",
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
@@ -501,22 +501,22 @@
         }
       ],
       "blogTags": {
-        "/tel/blog/tags/facebook": {
+        "/blog/tags/facebook": {
           "name": "facebook",
           "items": [
             "welcome"
           ],
-          "permalink": "/tel/blog/tags/facebook"
+          "permalink": "/blog/tags/facebook"
         },
-        "/tel/blog/tags/hello": {
+        "/blog/tags/hello": {
           "name": "hello",
           "items": [
             "welcome",
             "long-blog-post"
           ],
-          "permalink": "/tel/blog/tags/hello"
+          "permalink": "/blog/tags/hello"
         },
-        "/tel/blog/tags/docusaurus": {
+        "/blog/tags/docusaurus": {
           "name": "docusaurus",
           "items": [
             "welcome",
@@ -524,29 +524,29 @@
             "long-blog-post",
             "first-blog-post"
           ],
-          "permalink": "/tel/blog/tags/docusaurus"
+          "permalink": "/blog/tags/docusaurus"
         },
-        "/tel/blog/tags/hola": {
+        "/blog/tags/hola": {
           "name": "hola",
           "items": [
             "first-blog-post"
           ],
-          "permalink": "/tel/blog/tags/hola"
+          "permalink": "/blog/tags/hola"
         }
       },
-      "blogTagsListPath": "/tel/blog/tags"
+      "blogTagsListPath": "/blog/tags"
     }
   },
   "docusaurus-plugin-content-pages": {
     "default": [
       {
         "type": "jsx",
-        "permalink": "/tel/",
+        "permalink": "/",
         "source": "@site/src/pages/index.js"
       },
       {
         "type": "mdx",
-        "permalink": "/tel/markdown-page",
+        "permalink": "/markdown-page",
         "source": "@site/src/pages/markdown-page.md"
       }
     ]
