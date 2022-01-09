@@ -206,7 +206,7 @@ export default function Home() {
             <button><Translate>Search</Translate></button>
           </ButtonSection>
           <ButtonSection>
-            <Translate>Dharma Sandehalu offered in</Translate><span>&nbsp;:&nbsp;</span><a href="/tel/">తెలుగు</a><span>&nbsp;:&nbsp;</span><a href='/'>English</a>
+            <Translate>Dharma Sandehalu offered in</Translate><span>&nbsp;:&nbsp;</span><a href="/tel/">తెలుగు</a><span>&nbsp;:&nbsp;</span><a href='/'>English</a><span>&nbsp;:&nbsp;</span><a href='/hin/'>हिन्दी</a>
           </ButtonSection>
         </SearchSection>
       </Container>
