@@ -556,5 +556,8 @@
   },
   "docusaurus-theme-classic": {
     "default": null
+  },
+  "docusaurus-plugin-google-analytics": {
+    "default": null
   }
 }
