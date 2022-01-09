@@ -2,9 +2,10 @@
   "defaultLocale": "en",
   "locales": [
     "tel",
-    "en"
+    "en",
+    "hin"
   ],
-  "currentLocale": "en",
+  "currentLocale": "hin",
   "localeConfigs": {
     "tel": {
       "label": "తెలుగు",
@@ -12,6 +13,10 @@
     },
     "en": {
       "label": "English",
+      "direction": "ltr"
+    },
+    "hin": {
+      "label": "हिन्दी",
       "direction": "ltr"
     }
   }

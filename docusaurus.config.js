@@ -38,6 +38,16 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-google-analytics',
+      {
+        trackingID: 'G-4QBPDZZG3C',
+        anonymizeIP: true,
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -118,7 +128,7 @@ const config = {
     }),
     i18n: {
       defaultLocale: 'en',
-      locales: ['tel', 'en'],
+      locales: ['tel', 'en', 'hin'],
     },
 };
 
