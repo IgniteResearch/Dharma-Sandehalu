@@ -1,12 +1,22 @@
 {
   "defaultLocale": "en",
   "locales": [
-    "en"
+    "tel",
+    "en",
+    "hin"
   ],
-  "currentLocale": "en",
+  "currentLocale": "tel",
   "localeConfigs": {
+    "tel": {
+      "label": "తెలుగు",
+      "direction": "ltr"
+    },
     "en": {
       "label": "English",
+      "direction": "ltr"
+    },
+    "hin": {
+      "label": "हिन्दी",
       "direction": "ltr"
     }
   }

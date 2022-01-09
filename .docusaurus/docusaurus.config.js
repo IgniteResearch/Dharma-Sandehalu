@@ -2,7 +2,7 @@ export default {
   "title": "Dharma Sandehalu",
   "tagline": "Search Engine / one place For All Hindu Rituals",
   "url": "https://Dharmasandehalu.co.in",
-  "baseUrl": "/",
+  "baseUrl": "/tel/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/DharmaSandehalu.png",
@@ -35,13 +35,19 @@ export default {
       },
       "items": [
         {
+          "type": "localeDropdown",
+          "position": "right",
+          "dropdownItemsBefore": [],
+          "dropdownItemsAfter": []
+        },
+        {
           "type": "doc",
           "docId": "intro",
           "position": "left",
           "label": "Tutorial"
         },
         {
-          "to": "blog",
+          "to": "/blog",
           "label": "Blog",
           "position": "left"
         },
@@ -57,15 +63,11 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Learn",
+          "title": "Docs",
           "items": [
             {
-              "label": "Style Guide",
-              "to": "docs/"
-            },
-            {
-              "label": "Second Doc",
-              "to": "docs/doc2"
+              "label": "Tutorial",
+              "to": "/docs/intro"
             }
           ]
         },
@@ -77,12 +79,12 @@ export default {
               "href": "https://stackoverflow.com/questions/tagged/docusaurus"
             },
             {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            },
-            {
               "label": "Discord",
               "href": "https://discordapp.com/invite/docusaurus"
+            },
+            {
+              "label": "Twitter",
+              "href": "https://twitter.com/docusaurus"
             }
           ]
         },
@@ -91,45 +93,210 @@ export default {
           "items": [
             {
               "label": "Blog",
-              "to": "blog"
+              "to": "/blog"
             },
             {
               "label": "GitHub",
               "href": "https://github.com/facebook/docusaurus"
             }
           ]
-        },
-        {
-          "title": "Legal",
-          "items": [
-            {
-              "label": "Privacy",
-              "href": "https://opensource.facebook.com/legal/privacy/"
-            },
-            {
-              "label": "Terms",
-              "href": "https://opensource.facebook.com/legal/terms/"
-            },
-            {
-              "label": "Data Policy",
-              "href": "https://opensource.facebook.com/legal/data-policy/"
-            },
-            {
-              "label": "Cookie Policy",
-              "href": "https://opensource.facebook.com/legal/cookie-policy/"
-            }
-          ]
         }
       ],
-      "copyright": "Copyright © 2022 Ignite Research"
+      "copyright": "Copyright © 2022 My Project, Inc. Built with Docusaurus."
     },
-    "algolia": {
-      "appId": "K9Z7KSOS9S",
-      "apiKey": "6c373b2d3b98d5455c07ce77409449c3",
-      "indexName": "Dharma-Sandehalu",
-      "contextualSearch": true,
-      "externalUrlRegex": "external\\.com|domain\\.com",
-      "searchParameters": {}
+    "prism": {
+      "theme": {
+        "plain": {
+          "color": "#393A34",
+          "backgroundColor": "#f6f8fa"
+        },
+        "styles": [
+          {
+            "types": [
+              "comment",
+              "prolog",
+              "doctype",
+              "cdata"
+            ],
+            "style": {
+              "color": "#999988",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "namespace"
+            ],
+            "style": {
+              "opacity": 0.7
+            }
+          },
+          {
+            "types": [
+              "string",
+              "attr-value"
+            ],
+            "style": {
+              "color": "#e3116c"
+            }
+          },
+          {
+            "types": [
+              "punctuation",
+              "operator"
+            ],
+            "style": {
+              "color": "#393A34"
+            }
+          },
+          {
+            "types": [
+              "entity",
+              "url",
+              "symbol",
+              "number",
+              "boolean",
+              "variable",
+              "constant",
+              "property",
+              "regex",
+              "inserted"
+            ],
+            "style": {
+              "color": "#36acaa"
+            }
+          },
+          {
+            "types": [
+              "atrule",
+              "keyword",
+              "attr-name",
+              "selector"
+            ],
+            "style": {
+              "color": "#00a4db"
+            }
+          },
+          {
+            "types": [
+              "function",
+              "deleted",
+              "tag"
+            ],
+            "style": {
+              "color": "#d73a49"
+            }
+          },
+          {
+            "types": [
+              "function-variable"
+            ],
+            "style": {
+              "color": "#6f42c1"
+            }
+          },
+          {
+            "types": [
+              "tag",
+              "selector",
+              "keyword"
+            ],
+            "style": {
+              "color": "#00009f"
+            }
+          }
+        ]
+      },
+      "darkTheme": {
+        "plain": {
+          "color": "#F8F8F2",
+          "backgroundColor": "#282A36"
+        },
+        "styles": [
+          {
+            "types": [
+              "prolog",
+              "constant",
+              "builtin"
+            ],
+            "style": {
+              "color": "rgb(189, 147, 249)"
+            }
+          },
+          {
+            "types": [
+              "inserted",
+              "function"
+            ],
+            "style": {
+              "color": "rgb(80, 250, 123)"
+            }
+          },
+          {
+            "types": [
+              "deleted"
+            ],
+            "style": {
+              "color": "rgb(255, 85, 85)"
+            }
+          },
+          {
+            "types": [
+              "changed"
+            ],
+            "style": {
+              "color": "rgb(255, 184, 108)"
+            }
+          },
+          {
+            "types": [
+              "punctuation",
+              "symbol"
+            ],
+            "style": {
+              "color": "rgb(248, 248, 242)"
+            }
+          },
+          {
+            "types": [
+              "string",
+              "char",
+              "tag",
+              "selector"
+            ],
+            "style": {
+              "color": "rgb(255, 121, 198)"
+            }
+          },
+          {
+            "types": [
+              "keyword",
+              "variable"
+            ],
+            "style": {
+              "color": "rgb(189, 147, 249)",
+              "fontStyle": "italic"
+            }
+          },
+          {
+            "types": [
+              "comment"
+            ],
+            "style": {
+              "color": "rgb(98, 114, 164)"
+            }
+          },
+          {
+            "types": [
+              "attr-name"
+            ],
+            "style": {
+              "color": "rgb(241, 250, 140)"
+            }
+          }
+        ]
+      },
+      "additionalLanguages": []
     },
     "colorMode": {
       "defaultMode": "light",
@@ -146,23 +313,22 @@ export default {
       "versionPersistence": "localStorage"
     },
     "metadata": [],
-    "prism": {
-      "additionalLanguages": []
-    },
     "hideableSidebar": false,
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
     }
   },
-  "baseUrlIssueBanner": true,
   "i18n": {
     "defaultLocale": "en",
     "locales": [
-      "en"
+      "tel",
+      "en",
+      "hin"
     ],
     "localeConfigs": {}
   },
+  "baseUrlIssueBanner": true,
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"
