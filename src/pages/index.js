@@ -39,18 +39,18 @@ const LogoTextSection = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 190px;
+  min-height: 20vw;
   height: calc(100% - 560px);
 
  img {
-    width: 50px;
+    width: 6vw;
     height: calc(100% - 560px);
     margin-top: auto;
     vertical-align:middle
   }
 
   p{
-    font-size: -webkit-xxx-large;
+    font-size: 6vw;
     font-weight: 900;
     color: tomato;
     vertical-align:middle;
@@ -206,7 +206,7 @@ export default function Home() {
             <button><Translate>Search</Translate></button>
           </ButtonSection>
           <ButtonSection>
-            <Translate>Dharma Sandehalu offered in</Translate><span>&nbsp;:&nbsp;</span><a href={window.location.href+"tel/"}>తెలుగు</a><span>&nbsp;:&nbsp;</span><a href={window.location.href}>English</a>
+            <Translate>Dharma Sandehalu offered in</Translate><span>&nbsp;:&nbsp;</span><a href="/tel/">తెలుగు</a><span>&nbsp;:&nbsp;</span><a href='/'>English</a>
           </ButtonSection>
         </SearchSection>
       </Container>
