@@ -2,8 +2,7 @@
   "defaultLocale": "en",
   "locales": [
     "tel",
-    "en",
-    "hin"
+    "en"
   ],
   "currentLocale": "tel",
   "localeConfigs": {
@@ -13,10 +12,6 @@
     },
     "en": {
       "label": "English",
-      "direction": "ltr"
-    },
-    "hin": {
-      "label": "हिन्दी",
       "direction": "ltr"
     }
   }

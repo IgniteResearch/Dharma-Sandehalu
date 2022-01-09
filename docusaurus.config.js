@@ -118,7 +118,7 @@ const config = {
     }),
     i18n: {
       defaultLocale: 'en',
-      locales: ['tel', 'en', 'hin'],
+      locales: ['tel', 'en'],
     },
 };
 

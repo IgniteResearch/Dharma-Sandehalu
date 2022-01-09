@@ -323,8 +323,7 @@ export default {
     "defaultLocale": "en",
     "locales": [
       "tel",
-      "en",
-      "hin"
+      "en"
     ],
     "localeConfigs": {}
   },
