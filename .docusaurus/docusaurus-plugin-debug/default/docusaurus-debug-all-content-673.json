@@ -557,7 +557,7 @@
   "docusaurus-theme-classic": {
     "default": null
   },
-  "docusaurus-plugin-google-analytics": {
+  "docusaurus-plugin-ideal-image": {
     "default": null
   }
 }

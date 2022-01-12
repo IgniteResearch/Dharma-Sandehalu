@@ -27,19 +27,13 @@ export default {
     ]
   ],
   "plugins": [
-    [
-      "@docusaurus/plugin-google-analytics",
-      {
-        "trackingID": "G-4QBPDZZG3C",
-        "anonymizeIP": true
-      }
-    ]
+    "@docusaurus/plugin-ideal-image"
   ],
   "themeConfig": {
     "navbar": {
       "title": "Dharma sandehalu",
       "logo": {
-        "alt": "Dharma sandehalu Seach Enginer Logo",
+        "alt": "Dharma sandehalu Seach Engine Logo",
         "src": "img/DharmaSandehalu.png"
       },
       "items": [
@@ -332,8 +326,7 @@ export default {
     "defaultLocale": "en",
     "locales": [
       "tel",
-      "en",
-      "hin"
+      "en"
     ],
     "localeConfigs": {}
   },

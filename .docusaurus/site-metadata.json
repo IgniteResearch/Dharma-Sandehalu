@@ -27,9 +27,9 @@
       "name": "@docusaurus/theme-classic",
       "version": "2.0.0-beta.14"
     },
-    "docusaurus-plugin-google-analytics": {
+    "docusaurus-plugin-ideal-image": {
       "type": "package",
-      "name": "@docusaurus/plugin-google-analytics",
+      "name": "@docusaurus/plugin-ideal-image",
       "version": "2.0.0-beta.14"
     }
   }
