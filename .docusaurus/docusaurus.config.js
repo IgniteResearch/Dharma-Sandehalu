@@ -2,7 +2,7 @@ export default {
   "title": "Dharma Sandehalu",
   "tagline": "Search Engine / one place For All Hindu Rituals",
   "url": "https://Dharmasandehalu.co.in",
-  "baseUrl": "/",
+  "baseUrl": "/tel/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/DharmaSandehalu.png",
@@ -27,7 +27,8 @@ export default {
     ]
   ],
   "plugins": [
-    "@docusaurus/plugin-ideal-image"
+    "@docusaurus/plugin-ideal-image",
+    "C:\\Users\\saikoushikg\\Github\\IgniteResearch\\Dharma-Sandehalu\\node_modules\\docusaurus-lunr-search\\src\\index.js"
   ],
   "themeConfig": {
     "navbar": {

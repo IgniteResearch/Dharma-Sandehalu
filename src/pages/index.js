@@ -14,6 +14,9 @@ import Layout from '@theme/Layout';
 import Translate, { translate } from '@docusaurus/Translate';
 import { useLocation } from 'react-router-dom';
 import Image from '@theme/IdealImage';
+import SearchBlock from '../theme/SearchBlock';
+
+
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -80,6 +83,7 @@ const Search = styled.div`
   height: 44px;
   margin: 0 auto;
   max-width: 584px;
+
 `;
 
 const ButtonSection = styled.div`
@@ -209,15 +213,17 @@ export default function Home() {
           })()}
 
         </LogoTextSection>
-        <SearchSection>
-          <Form action='/' method='GET' role='search'>
-            <Search>
+        {/* <SearchSection> */}
+
+          {/* <Form action='/' method='GET' role='search'> */}
+            {/* <Search> */}
               <SearchIcon>
-              🔍
+              
               </SearchIcon>
-              <SearchInput type='text' />
-            </Search>
-          </Form>
+              <SearchBlock />
+              {/* <SearchInput type='text' /> */}
+            {/* </Search> */}
+          {/* </Form> */}
           <ButtonSection>
             <button><Translate>Search</Translate></button>
           </ButtonSection>
@@ -226,9 +232,9 @@ export default function Home() {
               <Translate>Dharma Sandehalu offered in</Translate>&nbsp;&nbsp;
             </OfferedInText>
             <OfferedInText>
-            &nbsp;&nbsp;<a href="/tel/">తెలుగు</a>&nbsp;,&nbsp;<a href='/'>English</a></OfferedInText>
+              &nbsp;&nbsp;<a href="/tel/">తెలుగు</a>&nbsp;,&nbsp;<a href='/'>English</a></OfferedInText>
           </OfferedIn>
-        </SearchSection>
+        {/* </SearchSection> */}
       </Container>
     </>
   );
