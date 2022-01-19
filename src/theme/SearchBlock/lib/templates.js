@@ -78,7 +78,7 @@ const templates = {
         <div class="${suggestionPrefix}--content ${suggestionPrefix}--no-results">
             <div class="${suggestionPrefix}--title">
                 <div class="${suggestionPrefix}--text">
-                    No results found for query <b>"{{query}}"</b>
+                   <a href="https://www.google.co.in/"> click here to ask our expert <b>"{{query}}"</b></a>
                 </div>
             </div>
         </div>
