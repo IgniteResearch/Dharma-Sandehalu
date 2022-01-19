@@ -6,7 +6,7 @@
   "source": "@site/docs/tutorial-extras/translate-your-site.md",
   "sourceDirName": "tutorial-extras",
   "slug": "/tutorial-extras/translate-your-site",
-  "permalink": "/hin/docs/tutorial-extras/translate-your-site",
+  "permalink": "/tel/docs/tutorial-extras/translate-your-site",
   "editUrl": "https://github.com/IgniteResearch/Dharma-Sandehalu/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/translate-your-site.md",
   "tags": [],
   "version": "current",
@@ -17,6 +17,6 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Manage Docs Versions",
-    "permalink": "/hin/docs/tutorial-extras/manage-docs-versions"
+    "permalink": "/tel/docs/tutorial-extras/manage-docs-versions"
   }
 }

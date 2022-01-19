@@ -21,7 +21,7 @@
             {
               "unversionedId": "intro",
               "id": "intro",
-              "title": "Tutorial Intro",
+              "title": "Vishnu Saharanamam",
               "description": "Let's discover Docusaurus in less than 5 minutes.",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
@@ -136,7 +136,7 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Tutorial Intro",
+                "title": "Vishnu Saharanamam",
                 "permalink": "/docs/intro"
               },
               "next": {
@@ -555,6 +555,12 @@
     "default": null
   },
   "docusaurus-theme-classic": {
+    "default": null
+  },
+  "docusaurus-plugin-ideal-image": {
+    "default": null
+  },
+  "docusaurus-lunr-search": {
     "default": null
   }
 }

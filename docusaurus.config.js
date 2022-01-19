@@ -39,13 +39,7 @@ const config = {
   ],
 
   plugins: [
-    [
-      '@docusaurus/plugin-google-analytics',
-      {
-        trackingID: 'G-4QBPDZZG3C',
-        anonymizeIP: true,
-      },
-    ],
+    '@docusaurus/plugin-ideal-image',require.resolve('docusaurus-lunr-search')
   ],
 
   themeConfig:
@@ -54,7 +48,7 @@ const config = {
       navbar: {
         title: 'Dharma sandehalu',
         logo: {
-          alt: 'Dharma sandehalu Seach Enginer Logo',
+          alt: 'Dharma sandehalu Seach Engine Logo',
           src: 'img/DharmaSandehalu.png',
         },
         items: [
@@ -68,7 +62,7 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -126,10 +120,10 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-    i18n: {
-      defaultLocale: 'en',
-      locales: ['tel', 'en', 'hin'],
-    },
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['tel', 'en'],
+  },
 };
 
 module.exports = config;

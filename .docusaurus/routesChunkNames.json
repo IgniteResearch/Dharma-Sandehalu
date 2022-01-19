@@ -1,5 +1,5 @@
 {
-  "/hin/blog-c5a": {
+  "/tel/blog-26c": {
     "component": "a6aa9e1f",
     "sidebar": "814f3328",
     "items": [
@@ -16,33 +16,33 @@
         "content": "925b3f96"
       }
     ],
-    "metadata": "36f0f2ea"
+    "metadata": "fe2a6944"
   },
-  "/hin/blog/archive-956": {
+  "/tel/blog/archive-86f": {
     "component": "9e4087bc",
-    "archive": "ed0f14e1"
+    "archive": "79255602"
   },
-  "/hin/blog/first-blog-post-c3d": {
+  "/tel/blog/first-blog-post-5c2": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "e273c56f"
   },
-  "/hin/blog/long-blog-post-60e": {
+  "/tel/blog/long-blog-post-3e6": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "73664a40"
   },
-  "/hin/blog/mdx-blog-post-356": {
+  "/tel/blog/mdx-blog-post-1e5": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "59362658"
   },
-  "/hin/blog/tags-471": {
+  "/tel/blog/tags-3b4": {
     "component": "01a85c17",
     "sidebar": "814f3328",
-    "tags": "55e6980d"
+    "tags": "e66b2591"
   },
-  "/hin/blog/tags/docusaurus-e25": {
+  "/tel/blog/tags/docusaurus-99e": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -59,9 +59,9 @@
         "content": "925b3f96"
       }
     ],
-    "metadata": "0ba1c740"
+    "metadata": "f275aac8"
   },
-  "/hin/blog/tags/facebook-6cb": {
+  "/tel/blog/tags/facebook-630": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -69,9 +69,9 @@
         "content": "7661071f"
       }
     ],
-    "metadata": "0828814c"
+    "metadata": "105befd0"
   },
-  "/hin/blog/tags/hello-dba": {
+  "/tel/blog/tags/hello-7a8": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -82,9 +82,9 @@
         "content": "8717b14a"
       }
     ],
-    "metadata": "049efa24"
+    "metadata": "fe9b0fe5"
   },
-  "/hin/blog/tags/hola-294": {
+  "/tel/blog/tags/hola-03b": {
     "component": "6875c492",
     "sidebar": "814f3328",
     "items": [
@@ -92,58 +92,58 @@
         "content": "925b3f96"
       }
     ],
-    "metadata": "a35bc7cc"
+    "metadata": "6a4d0a8c"
   },
-  "/hin/blog/welcome-5f6": {
+  "/tel/blog/welcome-572": {
     "component": "ccc49370",
     "sidebar": "814f3328",
     "content": "d9f32620"
   },
-  "/hin/markdown-page-537": {
+  "/tel/markdown-page-9f6": {
     "component": "1f391b9e",
     "content": "393be207"
   },
-  "/hin/docs-727": {
+  "/tel/docs-92a": {
     "component": "1be78505",
     "versionMetadata": "935f2afb"
   },
-  "/hin/docs/intro-446": {
+  "/tel/docs/intro-7df": {
     "component": "17896441",
     "content": "0e384e19"
   },
-  "/hin/docs/tutorial-basics/congratulations-55f": {
+  "/tel/docs/tutorial-basics/congratulations-7a1": {
     "component": "17896441",
     "content": "822bd8ab"
   },
-  "/hin/docs/tutorial-basics/create-a-blog-post-49a": {
+  "/tel/docs/tutorial-basics/create-a-blog-post-e77": {
     "component": "17896441",
     "content": "533a09ca"
   },
-  "/hin/docs/tutorial-basics/create-a-document-114": {
+  "/tel/docs/tutorial-basics/create-a-document-a24": {
     "component": "17896441",
     "content": "1e4232ab"
   },
-  "/hin/docs/tutorial-basics/create-a-page-85b": {
+  "/tel/docs/tutorial-basics/create-a-page-842": {
     "component": "17896441",
     "content": "5c868d36"
   },
-  "/hin/docs/tutorial-basics/deploy-your-site-ca9": {
+  "/tel/docs/tutorial-basics/deploy-your-site-b7f": {
     "component": "17896441",
     "content": "f55d3e7a"
   },
-  "/hin/docs/tutorial-basics/markdown-features-ae4": {
+  "/tel/docs/tutorial-basics/markdown-features-839": {
     "component": "17896441",
     "content": "18c41134"
   },
-  "/hin/docs/tutorial-extras/manage-docs-versions-8c5": {
+  "/tel/docs/tutorial-extras/manage-docs-versions-ba3": {
     "component": "17896441",
     "content": "dff1c289"
   },
-  "/hin/docs/tutorial-extras/translate-your-site-a8e": {
+  "/tel/docs/tutorial-extras/translate-your-site-e9b": {
     "component": "17896441",
     "content": "e44a2883"
   },
-  "/hin/-d37": {
+  "/tel/-69a": {
     "component": "c4f5d8e4",
     "config": "5e9f5e1a"
   }
