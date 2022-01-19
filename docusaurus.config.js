@@ -39,7 +39,7 @@ const config = {
   ],
 
   plugins: [
-    '@docusaurus/plugin-ideal-image',
+    '@docusaurus/plugin-ideal-image',require.resolve('docusaurus-lunr-search')
   ],
 
   themeConfig:
