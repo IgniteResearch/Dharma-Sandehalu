@@ -1,0 +1,65 @@
+/**
+ * Copyright (c) 2017-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+ #engine_bar{
+  margin:0 auto;
+  width:575px;
+  border-radius:30px;
+  border:2px solid #dcdcdc;
+}
+
+#engine_bar:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+#engine_bar:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+}
+
+ #engine_input_react {
+  height:35px;
+  border:none;
+  width:500px;
+  font-size:16px;
+  outline: none;
+}
+
+.search-icon {
+  background-image: var(--ifm-navbar-search-input-icon);
+  height: auto;
+  width: 24px;
+  cursor: pointer;
+  padding: 8px;
+  line-height: 32px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: none;
+}
+
+.search-icon-hidden {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  #engine_input_react {
+    width: 60vw;
+    height:15px;
+    margin-top: 3%;
+  }
+    
+  #engine_bar{
+    width: 82vw;
+    border:2px solid #dcdcdc;
+  }
+
+  #engine_bar .algolia-autocomplete .ds-dropdown-menu {
+    margin-top: 35% !important;
+  }
+}

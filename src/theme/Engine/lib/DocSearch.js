@@ -96,15 +96,15 @@ class DocSearch {
         }
     }
 
-    static injectSearchBox(input) {
-        input.before(templates.searchBox);
-        const newInput = input
-            .prev()
-            .prev()
-            .find("input");
-        input.remove();
-        return newInput;
-    }
+    // static injectSearchBox(input) {
+    //     input.before(templates.searchBox);
+    //     const newInput = input
+    //         .prev()
+    //         .prev()
+    //         .find("input");
+    //     input.remove();
+    //     return newInput;
+    // }
 
     static bindSearchBoxEvent() {
         $('.searchbox [type="reset"]').on("click", function () {
@@ -284,22 +284,22 @@ class DocSearch {
             middleOfWindow = 900;
         }
 
-        // const alignClass =
-        //     middleOfInput - middleOfWindow >= 0
-        //         ? "algolia-autocomplete-right"
-        //         : "algolia-autocomplete-left";
-        // const otherAlignClass =
-        //     middleOfInput - middleOfWindow < 0
-        //         ? "algolia-autocomplete-right"
-        //         : "algolia-autocomplete-left";
-        // const autocompleteWrapper = $(".algolia-autocomplete");
-        // if (!autocompleteWrapper.hasClass(alignClass)) {
-        //     autocompleteWrapper.addClass(alignClass);
-        // }
+        const alignClass =
+            middleOfInput - middleOfWindow >= 0
+                ? "algolia-autocomplete-right"
+                : "algolia-autocomplete-left";
+        const otherAlignClass =
+            middleOfInput - middleOfWindow < 0
+                ? "algolia-autocomplete-right"
+                : "algolia-autocomplete-left";
+        const autocompleteWrapper = $(".algolia-autocomplete");
+        if (!autocompleteWrapper.hasClass(alignClass)) {
+            autocompleteWrapper.addClass(alignClass);
+        }
 
-        // if (autocompleteWrapper.hasClass(otherAlignClass)) {
-        //     autocompleteWrapper.removeClass(otherAlignClass);
-        // }
+        if (autocompleteWrapper.hasClass(otherAlignClass)) {
+            autocompleteWrapper.removeClass(otherAlignClass);
+        }
     }
 }
 

@@ -3,7 +3,7 @@
     "message": "వెతకండి"
   },
   "Dharma Sandehalu offered in": {
-    "message": "ధర్మ సందేహాలు  ఈ భాషల్లో అందుబాటులో ఉంది"
+    "message": "ధర్మసందేహాలు ఈ భాషల్లో అందుబాటులో ఉంది"
   },
   "theme.ErrorPageContent.title": {
     "message": "కొన్ని సాంకేతిక సమస్యల కారణంగా పేజీ పని చేయడం లేదు",
@@ -202,6 +202,6 @@
     "description": "The title of the tag list page"
   },
   "Dharma Sandehalu": {
-    "message": "ధర్మ సందేహాలు"
+    "message": "ధర్మసందేహాలు"
   }
 }

@@ -32,7 +32,7 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "Dharma sandehalu",
+      "title": "ధర్మసందేహాలు",
       "logo": {
         "alt": "Dharma sandehalu Seach Engine Logo",
         "src": "img/DharmaSandehalu.png"
@@ -304,7 +304,7 @@ export default {
     },
     "colorMode": {
       "defaultMode": "light",
-      "disableSwitch": false,
+      "disableSwitch": true,
       "respectPrefersColorScheme": false,
       "switchConfig": {
         "darkIcon": "🌜",

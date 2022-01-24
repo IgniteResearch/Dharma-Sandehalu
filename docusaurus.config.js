@@ -119,7 +119,13 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false
+      },
     }),
+    
   i18n: {
     defaultLocale: 'en',
     locales: ['tel', 'en'],
