@@ -1,6 +1,6 @@
 {
   "Search": "వెతకండి",
-  "Dharma Sandehalu offered in": "ధర్మ సందేహాలు  ఈ భాషల్లో అందుబాటులో ఉంది",
+  "Dharma Sandehalu offered in": "ధర్మసందేహాలు ఈ భాషల్లో అందుబాటులో ఉంది",
   "theme.ErrorPageContent.title": "కొన్ని సాంకేతిక సమస్యల కారణంగా పేజీ పని చేయడం లేదు",
   "theme.ErrorPageContent.tryAgain": "మళ్లీ ప్రయత్నించండి",
   "theme.NotFound.title": "పేజీ కనుగొనబడలేదు",
@@ -50,5 +50,5 @@
   "theme.tags.tagsListLabel": "Tags:",
   "theme.TOCCollapsible.toggleButtonLabel": "On this page",
   "theme.tags.tagsPageTitle": "Tags",
-  "Dharma Sandehalu": "ధర్మ సందేహాలు"
+  "Dharma Sandehalu": "ధర్మసందేహాలు"
 }
