@@ -24,7 +24,7 @@ jobs:
         run: |
           ls -la
           npm install 
-          npm run build
+          npm run build --locale tel
           echo 'dharmasandehalu.co.in' > build/CNAME
       - name: Deploy to GitHub Pages
         if: success()
