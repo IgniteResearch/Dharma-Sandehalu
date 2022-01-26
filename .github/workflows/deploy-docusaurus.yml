@@ -22,15 +22,14 @@ jobs:
       # Install and build Docusaurus website
       - name: Build Docusaurus website
         run: |
-          ls -la
           npm install 
-          npm run build --locale tel
-          echo 'dharmasandehalu.co.in' > build/CNAME
+          npm run build
+          echo 'dharmasandehalu.co.in' > build/tel/CNAME
       - name: Deploy to GitHub Pages
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
         with:
           target_branch: gh-pages
-          build_dir: build
+          build_dir: build/tel
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
